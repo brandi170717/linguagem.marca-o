@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+:root{
+    --vermelho:#F00101;
+    --branco:#FFFFFF;
+    --preto:#000000;
+    --cinza:#C1C1C1;
+    --vermelho_escuro:#7C1B00;
+    --cinza_escuro:#898989;
+}
+body{
+    background-color:var(--vermelho_escuro);
+}
+.formulario{
+    margin: 100px;
+    width: 230px;
+    position: fixed;
+    position: relative;
+    background-color:var(--vermelho);
+    padding-left: 10px;
+
+} 
+.titulo{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color:var(--preto);
+    color:var(--branco);
+} 
+
+.img{
+   position: absolute;
+   top: 60px; 
+   bottom: 30px; 
+   height: 10px;
+   width: 70px; 
+
+}
+.hi{
+    color:var(--branco);
+}
